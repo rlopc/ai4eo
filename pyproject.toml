@@ -3,5 +3,19 @@ name = "ai4eo"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
+authors = [
+    { name = "rlopc4ds", email = "rlopc4ds@gmail.com" }
+]
 requires-python = ">=3.11,<3.12"
 dependencies = []
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.4",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = [
+    "tests",
+]
