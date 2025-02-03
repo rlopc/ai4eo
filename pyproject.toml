@@ -13,6 +13,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "pip>=25.0",
     "pytest>=8.3.4",
 ]
 
