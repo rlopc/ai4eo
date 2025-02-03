@@ -7,7 +7,9 @@ authors = [
     { name = "rlopc4ds", email = "rlopc4ds@gmail.com" }
 ]
 requires-python = ">=3.11,<3.12"
-dependencies = []
+dependencies = [
+    "azure-functions>=1.21.3",
+]
 
 [dependency-groups]
 dev = [
